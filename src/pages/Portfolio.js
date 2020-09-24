@@ -21,7 +21,7 @@ function Portfolio() {
         <Typography align="center" style={{height:"3em"}} variant="body1" component="p">
         {project.description}
         </Typography>
-        <div container style={{display: "flex", justifyContent: 'space-around', marginTop: "1em"}}>
+        <div container style={{display: "flex", justifyContent: 'space-around', marginTop: "2em"}}>
         {project.technologies.map(tech => {
             return (
                 <Chip 
@@ -34,8 +34,8 @@ function Portfolio() {
         </div>
       </CardContent>
       <CardActions style={{justifyContent: 'center'}}>
-        <Button href="https://www.google.com" color="primary" variant="outlined"size="medium">Github</Button>
-        <Button color="primary" variant="outlined"size="medium">Demo</Button>
+        <Button href={project.github} target="_blank" color="primary" variant="outlined"size="medium">Github</Button>
+        <Button href={project.demo} target="_blank" color="primary" variant="outlined"size="medium">Demo</Button>
       </CardActions>
           </Card>
         </Grid>

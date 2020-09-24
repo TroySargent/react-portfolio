@@ -1,31 +1,45 @@
 { "projects":[
     { "name": "Money Trend",
-        "image": "https://placehold.it/200x200",
-        "github":"",
-        "demo":"",
-        "technologies":["CSS","JS",""],
-        "description": "fkl;dfl;dksaf dfjsaklfjdsf kdfkjslkf fkfdfkljdsflkjf kfkdsjflkjfa"
+        "image": "",
+        "github":"https://github.com/EvanMohammed/MoneyTrend",
+        "demo":"https://moneytrend.herokuapp.com",
+        "technologies":["MySQL","Node.js","Express", "Handelbars"],
+        "description": "Money Trend is a budgeting app where users log their expenses and income by category to keep track of their budget."
     },
-    { "name": "Money Trend",
-        "image": "https://placehold.it/200x200",
-        "github":"",
-        "demo":"",
-        "technologies":["","",""],
-        "description":"s"
+    { "name": "Birdie Stock App",
+        "image": "",
+        "github":"https://github.com/dchoi20/Birdie",
+        "demo":"https://dchoi20.github.io/Birdie/",
+        "technologies":["JavaScript","APIs","CSS"],
+        "description":"Birdie is a one-stop shop for investment news and stock research."
     },
-    { "name": "Money Trend",
-        "image": "https://placehold.it/200x200",
-        "github":"",
-        "demo":"",
-        "technologies":["","",""],
-        "description":""
+    { "name": "HR System",
+        "image": "",
+        "github":"https://github.com/TroySargent/employee-management-system",
+        "demo":"https://youtu.be/l94qfWC28Vw",
+        "technologies":["Node.js","MySQL","Inquirer (CLI)"],
+        "description":"This is a CLI interface that allows you to update, add, view, and remove aspects of your business like departments, roles, and employees."
     },
-    { "name": "Money Trend",
-        "image": "https://placehold.it/200x200",
-        "github":"",
-        "demo":"",
-        "technologies":["","",""],
-        "description":""
-    } 
+    { "name": "Employee Directory",
+        "image": "",
+        "github":"https://github.com/TroySargent/react-employee-directory",
+        "demo":"https://troysargent.github.io/react-employee-directory/",
+        "technologies":["React","API", "Material UI"],
+        "description":"This is an example employee directory where you can search for employees or sort them by last name."
+    },
+    { "name": "Fitness Tracker",
+        "image": "",
+        "github":"https://github.com/TroySargent/fitness-tracker",
+        "demo":"https://troys-fitness-tracker.herokuapp.com/",
+        "technologies":["Node.js","Express","MongoDB (Atlas)", "Heroku"],
+        "description":"This is an app where you can track your workouts and see the change in weight/duration over time."
+    },
+    { "name": "PWA Transaction App",
+        "image": "",
+        "github":"https://github.com/TroySargent/pwa-budget-tracker",
+        "demo":"https://troysargent-note-app.herokuapp.com/",
+        "technologies":["IndexedDB","MongoDB (Atlas)", "Node.js", "Heroku"],
+        "description":"This is a progressive web app (works offline) that tracks finanical transactions and visualizes them."
+    }
     ]
 }
