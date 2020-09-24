@@ -11,8 +11,8 @@ function Portfolio() {
         <Grid container spacing={4}> 
         {projects.map(project => {
             return (
-        <Grid item xs={12} sm={6} lg={4} style={{marginTop:"3em"}}>
-          <Card>
+        <Grid key={project.name} item xs={12} sm={6} lg={4} style={{marginTop:"3em"}}>
+          <Card >
           <CardContent>
         <Typography align="center" variant="h4" gutterBottom>
           {project.name}
@@ -21,10 +21,11 @@ function Portfolio() {
         <Typography align="center" style={{height:"3em"}} variant="body1" component="p">
         {project.description}
         </Typography>
-        <div container style={{display: "flex", justifyContent: 'space-around', marginTop: "2em"}}>
+        <div style={{display: "flex", justifyContent: 'space-around', marginTop: "2em"}}>
         {project.technologies.map(tech => {
             return (
                 <Chip 
+                key={tech}
                 margin="1em"
                 label={tech}
                 color="primary"
