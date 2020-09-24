@@ -1,0 +1,31 @@
+{ "projects":[
+    { "name": "Money Trend",
+        "image": "https://placehold.it/200x200",
+        "github":"",
+        "demo":"",
+        "technologies":["CSS","JS",""],
+        "description": "fkl;dfl;dksaf dfjsaklfjdsf kdfkjslkf fkfdfkljdsflkjf kfkdsjflkjfa"
+    },
+    { "name": "Money Trend",
+        "image": "https://placehold.it/200x200",
+        "github":"",
+        "demo":"",
+        "technologies":["","",""],
+        "description":"s"
+    },
+    { "name": "Money Trend",
+        "image": "https://placehold.it/200x200",
+        "github":"",
+        "demo":"",
+        "technologies":["","",""],
+        "description":""
+    },
+    { "name": "Money Trend",
+        "image": "https://placehold.it/200x200",
+        "github":"",
+        "demo":"",
+        "technologies":["","",""],
+        "description":""
+    } 
+    ]
+}
