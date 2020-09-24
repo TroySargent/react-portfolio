@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
+import Container from "@material-ui/core/Container";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../static/assets/profile.jpeg";
@@ -35,6 +36,8 @@ const TypeAnimation = () => {
   const classes = useStyles();
 
   return (
+    <Container>
+
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
         <Avatar className={classes.avatar} src={avatar} alt="Troy Sargent" />
@@ -51,9 +54,16 @@ const TypeAnimation = () => {
           typeSpeed={40}
           backSpeed={50}
           loop
-        />
+          />
       </Typography>
+      <Box style={{color:"#222", backgroundColor:"transparent", width:"50vh", margin:"0 auto", justifyContent:"center"}}>
+      <Typography variant="h6">
+      Troy Sargent is a Full Stack Engineer with a background in data analytics at a Fortune 200 company. He is currently seeking a full-time position. In his free time, Troy enjoys learning about philosophy, finance, and the outdoors.
+      </Typography>
+        
+      </Box>
     </Box>
+          </Container>
   );
 };
 

@@ -4,6 +4,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Navbar from "./components/navbar";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact"
 import './App.css';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/resume"  component={Resume}/>
             <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact"  />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
  
     </Router>
