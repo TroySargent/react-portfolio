@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b8162f42.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.ff62a3ac.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.ff62a3ac.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1d992053.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1d992053.js.map",
-    "static/js/2.9865886e.chunk.js": "/react-portfolio/static/js/2.9865886e.chunk.js",
-    "static/js/2.9865886e.chunk.js.map": "/react-portfolio/static/js/2.9865886e.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "precache-manifest.59ef45ea29b223afc9dc42e307d9ff3e.js": "/react-portfolio/precache-manifest.59ef45ea29b223afc9dc42e307d9ff3e.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.b8162f42.chunk.css.map": "/react-portfolio/static/css/main.b8162f42.chunk.css.map",
-    "static/js/2.9865886e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9865886e.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-portfolio/static/media/background.fa9b4c56.jpg",
-    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.c8f43482.jpeg"
+    "main.css": "/static/css/main.6368738b.chunk.css",
+    "main.js": "/static/js/main.04ce52a0.chunk.js",
+    "main.js.map": "/static/js/main.04ce52a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.9865886e.chunk.js": "/static/js/2.9865886e.chunk.js",
+    "static/js/2.9865886e.chunk.js.map": "/static/js/2.9865886e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.54313fd9aee3527a0a37e57809467475.js": "/precache-manifest.54313fd9aee3527a0a37e57809467475.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6368738b.chunk.css.map": "/static/css/main.6368738b.chunk.css.map",
+    "static/js/2.9865886e.chunk.js.LICENSE.txt": "/static/js/2.9865886e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.fa9b4c56.jpg",
+    "static/media/profile.jpeg": "/static/media/profile.c8f43482.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d992053.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.9865886e.chunk.js",
-    "static/css/main.b8162f42.chunk.css",
-    "static/js/main.ff62a3ac.chunk.js"
+    "static/css/main.6368738b.chunk.css",
+    "static/js/main.04ce52a0.chunk.js"
   ]
 }
