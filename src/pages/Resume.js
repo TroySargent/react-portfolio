@@ -1,8 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
+import {Typography, Button} from "@material-ui/core/";
 import Box from "@material-ui/core/Box";
-import {experiences} from "../static/content/Experiences.json"
+import {experiences} from "../static/content/Experiences.json";
+import GetAppIcon from '@material-ui/icons/GetApp';;
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -118,7 +119,7 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Experience
+        Experience <Button href="./assets/Troy_Sargent_Resume.pdf" download><GetAppIcon style={{color:"0ccff"}}/><small style={{color:"white"}}>Resume</small></Button>
       </Typography>
       {experiences.map(experience => {
           return(
