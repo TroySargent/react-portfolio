@@ -1,14 +1,17 @@
 import React from "react";
-import { Card, Grid, CardContent, Typography, CardActions, Button, Chip } from '@material-ui/core';
+import { Card, Grid, CardContent, Typography, CardActions, Button, Chip, Container } from '@material-ui/core';
 import {projects} from "../static/content/Portfolio.json";
 import Image from 'material-ui-image';
 
 function Portfolio() {
     return(
-        <Grid container spacing={3}> 
+        <Container>
+
+        
+        <Grid container spacing={4}> 
         {projects.map(project => {
             return (
-        <Grid item xs={12} sm={6} lg={4}>
+        <Grid item xs={12} sm={6} lg={4} style={{marginTop:"3em"}}>
           <Card>
           <CardContent>
         <Typography align="center" variant="h4" gutterBottom>
@@ -40,6 +43,7 @@ function Portfolio() {
         })}
 
       </Grid>
+      </Container>
     )
 };
 
