@@ -2,6 +2,16 @@ import React from "react";
 import { Card, Grid, CardContent, Typography, CardActions, Button, Chip, Container } from '@material-ui/core';
 import {projects} from "../static/content/Portfolio.json";
 import Image from 'material-ui-image';
+//import all images for webpack
+import birdie from "../static/assets/birdie.png";
+import moneytrend from "../static/assets/moneytrend.png";
+import hr from "../static/assets/hr.png";
+import employeedirectory from "../static/assets/employeedirectory.png";
+import fitnesstracker from "../static/assets/fitnesstracker.png";
+import transactionapp from "../static/assets/transactionapp.png";
+// create object to access image by string obj["string"]
+let images = {birdie, moneytrend, hr, employeedirectory, fitnesstracker, transactionapp};
+
 
 function Portfolio() {
     return(
@@ -17,7 +27,7 @@ function Portfolio() {
         <Typography align="center" variant="h4" gutterBottom>
           {project.name}
         </Typography>
-        <Image src={project.image}/>
+        <Image src={images[project.image]}/>
         <Typography align="center" style={{height:"3em"}} variant="body1" component="p">
         {project.description}
         </Typography>
