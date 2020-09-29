@@ -27,16 +27,16 @@ function Portfolio() {
         <Typography align="center" variant="h4" gutterBottom>
           {project.name}
         </Typography>
-        <Image src={images[project.image]}/>
+        <Image src={images[project.image]} style={{borderRadius:"4px", backgroundSize:"cover", backgroundPosition:"center"}}/>
         <Typography align="center" style={{height:"3em"}} variant="body1" component="p">
         {project.description}
         </Typography>
-        <div style={{display: "flex", justifyContent: 'space-around', marginTop: "2em"}}>
+        <div style={{display: "flex", flexWrap:"wrap",justifyContent: 'space-around', marginTop: "2em"}}>
         {project.technologies.map(tech => {
             return (
                 <Chip 
                 key={tech}
-                margin="1em"
+                style={{marginTop:"1.3em"}}
                 label={tech}
                 color="primary"
                 />

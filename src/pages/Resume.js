@@ -8,20 +8,20 @@ import GetAppIcon from '@material-ui/icons/GetApp';;
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "#264d73",
-    height: '100vh',
-    margin: 0
+    margin: 0,
+      height: "100vh",
+
   },
   timeLine: {
     position: "relative",
     padding: "1rem",
-    margin: "o auto",
+    margin: "0 auto",
     "&:before": {
       content: "''",
       position: "absolute",
       height: "100%",
       border: "1px solid #26734c",
-      right: "40px",
-      top: 0,
+      right: "0.5rem",
     },
     "&:after": {
       content: "''",
@@ -31,16 +31,17 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       padding: "2rem",
       "&:before": {
-        left: "75%",
+        left: "90%",
         right: "auto",
+        top: 0
       },
     },
   },
   timeLineItem: {
-    padding: "1rem",
+    padding: "2rem",
     borderBottom: "2px solid #26734c",
     position: "relative",
-    margin: "1rem 3rem 1rem 1rem",
+    margin: "0 auto",
     clear: "both",
     "&:after": {
       content: "''",
@@ -49,31 +50,22 @@ const useStyles = makeStyles((theme) => ({
     "&:before": {
       content: "''",
       position: "absolute",
-      right: "-0.625rem",
+      right: "0.5em",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
       borderColor: "#00ccff #00ccff transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
-    [theme.breakpoints.up("md")]: {
+    [theme.breakpoints.up("sm")]: {
       width: "70%",
-      margin: "1rem",
-      "&:nth-of-type(2n)": {
-        margin: "1rem",
-        borderColor: "#26734c",
-      },
-      "&:nth-of-type(2n):before": {
-        right: "auto",
-        left: "-0.625rem",
-        borderColor: "transparent transparent #00ccff #00ccff",
-      },
+      margin: "0 auto",
     },
   },
   timeLineYear: {
     textAlign: "center",
     maxWidth: "9.375rem",
-    margin: "0 3rem 0 auto",
+    margin: "0 1rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
     background: "#00ccff",
@@ -83,8 +75,9 @@ const useStyles = makeStyles((theme) => ({
       display: "none",
     },
     [theme.breakpoints.up("md")]: {
+      marginRight: "3rem",
       textAlign: "center",
-      right: "22%",
+      right: "5%",
       "&:nth-of-type(2n)": {
         float: "none",
         margin: "0 auto",
@@ -94,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     [theme.breakpoints.up("lg")]: {
-      right: "25%",
+      right: "10%",
     },
   },
   heading: {
