@@ -7,10 +7,12 @@ import GetAppIcon from '@material-ui/icons/GetApp';;
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
+    height: "100%",
     background: "#264d73",
     margin: 0,
-      height: "100vh",
-
+    [theme.breakpoints.up("md")]: {
+      height:"100vh"
+    }
   },
   timeLine: {
     position: "relative",
@@ -22,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
       height: "100%",
       border: "1px solid #26734c",
       right: "0.5rem",
+      bottom: "1em"
     },
     "&:after": {
       content: "''",

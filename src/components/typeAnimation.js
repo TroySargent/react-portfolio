@@ -58,7 +58,13 @@ const TypeAnimation = () => {
       </Typography>
       <Box style={{color:"#222", backgroundColor:"transparent", padding:"0 2rem", margin:"0 auto", justifyContent:"center"}}>
       <Typography variant="h6">
-      Troy Sargent is a Full Stack Engineer with a background in data analytics at a Fortune 200 company. He is currently seeking a full-time position. In his free time, Troy enjoys learning about philosophy, finance, and the outdoors.
+      Troy Sargent is a Full Stack Engineer with a background in data analytics at a Fortune 200 company. 
+      </Typography>
+      <Typography variant="h6">
+      He is currently seeking a full-time position. 
+      </Typography>
+      <Typography variant="h6">
+      He is thinking about cryptoeconomics and the richness of life. 
       </Typography>
         
       </Box>
