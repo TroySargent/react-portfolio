@@ -10,9 +10,9 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     background: "#264d73",
     margin: 0,
-    [theme.breakpoints.up("md")]: {
-      height:"100vh"
-    }
+    // [theme.breakpoints.up("md")]: {
+    //   height:"100vh"
+    // }
   },
   timeLine: {
     position: "relative",

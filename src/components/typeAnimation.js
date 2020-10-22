@@ -61,10 +61,10 @@ const TypeAnimation = () => {
       Troy Sargent is a Full Stack Engineer with a background in data analytics at a Fortune 200 company. 
       </Typography>
       <Typography variant="h6">
-      He is currently seeking a full-time position. 
+      He is thinking about cryptoeconomics and the richness of life. 
       </Typography>
       <Typography variant="h6">
-      He is thinking about cryptoeconomics and the richness of life. 
+      Open to full-time opportunities. 
       </Typography>
         
       </Box>
